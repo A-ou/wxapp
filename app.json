@@ -1,0 +1,38 @@
+{
+  "pages": [ 
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/two/two"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "red",
+    "navigationBarTitleText": "wx hello",
+    "navigationBarTextStyle": "#fff",
+    "backgroundColor": "green",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":""
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/two/two",
+        "text": "two"
+      }
+    ],
+    "color": "green",
+    "selectedColor":"red"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
